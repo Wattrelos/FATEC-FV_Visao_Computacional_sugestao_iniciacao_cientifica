@@ -1,3 +1,9 @@
+## 👨‍🏫 Autor e Informações Acadêmicas
+- **Professora:** Márcia Bissaco
+- **Instituição:** FATEC Ferraz de Vasconcelos — Faculdade de Tecnologia de Ferraz de Vasconcelos
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Disciplina:** Visão Computacional
+
 # Seminário e Projetos: Visão Computacional e Processamento de Imagens
 
 > **Data Limite de Conclusão / Apresentação:** 28 de novembro de 2026 às 23:59  
@@ -11,11 +17,11 @@ Este repositório reúne diretrizes acadêmicas, análises aprofundadas de artig
 
 | Documento | Foco Principal | Finalidade e Destaques |
 | :--- | :--- | :--- |
-| 📄 [artigo-cientifico-sobre-TensorFlow.md](file:///var/www/html/visao-computaciona/sugestoes-artigo-cientifico/artigo-cientifico-sobre-TensorFlow.md) | Artigo Seminal de Infraestrutura de IA | Análise completa de Abadi et al. (OSDI '16), grafos de dados, benchmarks com Inception-v3, escalabilidade multi-GPU e crítica comparativa contra o PyTorch. |
-| 👁️ [exemplos-reconhecimento-facial-como-mouse.md](file:///var/www/html/visao-computaciona/sugestoes-artigo-cientifico/exemplos-reconhecimento-facial-como-mouse.md) | Tecnologia Assistiva & IHC | Formulação matemática de Head Pose (PnP), cálculo de EAR para piscadas, estabilização via 1€ Filter e testes com a Lei de Fitts (ISO 9241-9). |
-| 🔬 [sugestao-iniciacao-cientifica.md](file:///var/www/html/visao-computaciona/sugestoes-artigo-cientifico/sugestao-iniciacao-cientifica.md) | Projetos Móveis para PIBIC / TCC | Pipeline de desenvolvimento Edge AI com TensorFlow Lite, quantização INT8, hipóteses científicas e 3 projetos práticos (Agronegócio, Ergonomia e Acessibilidade). |
-| 💡 [sugestao-nichos-inexplorados.md](file:///var/www/html/visao-computaciona/sugestoes-artigo-cientifico/sugestao-nichos-inexplorados.md) | Inovação e Ineditismo Científico | Catálogo de 12 nichos inexplorados, alerta crítico sobre Comitê de Ética em Pesquisa (CEP), matriz taxonômica e ideias de vanguarda (rPPG, visão neuromórfica e documentoscopia). |
-| 📋 [template-apresentacao-seminario.md](file:///var/www/html/visao-computaciona/sugestoes-artigo-cientifico/template-apresentacao-seminario.md) | Roteiro Slide a Slide para Apresentação | Template pronto estruturado nos 10 tópicos exigidos, com distribuição de tempo, falas sugeridas e antecipação de perguntas da banca. |
+| 📄 [artigo-cientifico-sobre-TensorFlow.md](/artigo-cientifico-sobre-TensorFlow.md) | Artigo Seminal de Infraestrutura de IA | Análise completa de Abadi et al. (OSDI '16), grafos de dados, benchmarks com Inception-v3, escalabilidade multi-GPU e crítica comparativa contra o PyTorch. |
+| 👁️ [exemplos-reconhecimento-facial-como-mouse.md](/exemplos-reconhecimento-facial-como-mouse.md) | Tecnologia Assistiva & IHC | Formulação matemática de Head Pose (PnP), cálculo de EAR para piscadas, estabilização via 1€ Filter e testes com a Lei de Fitts (ISO 9241-9). |
+| 🔬 [sugestao-iniciacao-cientifica.md](/sugestao-iniciacao-cientifica.md) | Projetos Móveis para PIBIC / TCC | Pipeline de desenvolvimento Edge AI com TensorFlow Lite, quantização INT8, hipóteses científicas e 3 projetos práticos (Agronegócio, Ergonomia e Acessibilidade). |
+| 💡 [sugestao-nichos-inexplorados.md](/sugestao-nichos-inexplorados.md) | Inovação e Ineditismo Científico | Catálogo de 12 nichos inexplorados, alerta crítico sobre Comitê de Ética em Pesquisa (CEP), matriz taxonômica e ideias de vanguarda (rPPG, visão neuromórfica e documentoscopia). |
+| 📋 [template-apresentacao-seminario.md](/template-apresentacao-seminario.md) | Roteiro Slide a Slide para Apresentação | Template pronto estruturado nos 10 tópicos exigidos, com distribuição de tempo, falas sugeridas e antecipação de perguntas da banca. |
 
 ---
 

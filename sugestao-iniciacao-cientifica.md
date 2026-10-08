@@ -35,19 +35,19 @@ Abaixo está o fluxo padronizado de ciclo de vida de IA de borda, substituindo q
 
 ```mermaid
 flowchart TD
-    subgraph Fase 1: Engenharia de Dados e Treinamento (Host / Cloud / Colab)
+    subgraph \n Fase 1: Engenharia de Dados e Treinamento Host / Cloud / Colab
         Data["Dataset de Imagens\n(Anotado & Aumentado)"] --> Train["Treinamento / Transfer Learning\n(TensorFlow / Keras com PyTorch/YOLO)"]
         Train --> FloatModel["Modelo Original de Ponto Flutuante\n(Modelo .keras / SavedModel - 32-bit float)"]
     end
 
-    subgraph Fase 2: Otimização e Conversão (TFLite Converter)
+    subgraph Fase 2: Otimização e Conversão TFLite Converter
         FloatModel --> Converter["Conversor TensorFlow Lite\n(TFLiteConverter.from_saved_model)"]
         CalibData["Dataset de Calibração Representativo\n(100 a 500 imagens sem rótulo)"] -.-> Converter
         Converter --> Quant["Quantização Pós-Treinamento (PTQ)\n(Float32 -> Int8 com pesos e ativações quantizados)"]
         Quant --> TFLiteFile["Arquivo Otimizado Final\n(modelo_quantizado.tflite - Redução ~75% de tamanho)"]
     end
 
-    subgraph Fase 3: Runtime Embarcado no Smartphone (Android / iOS)
+    subgraph Fase 3: Runtime Embarcado no Smartphone Android / iOS
         TFLiteFile --> Assets["Assets da Aplicação Mobile\n(Empacotado no APK/AAB)"]
         Cam["Câmera do Celular\n(CameraX ImageAnalysis @ 30 FPS)"] --> FrameBuffer["Buffer de Imagem em Memória\n(YUV_420_888 -> Bitmap RGB)"]
         FrameBuffer --> Interp["TensorFlow Lite Interpreter\n(com Hardware Delegate: GPU / NNAPI / Hexagon)"]
@@ -59,6 +59,7 @@ flowchart TD
         TensorOut --> PostProc["Pós-processamento Matemático\n(Non-Maximum Suppression, Filtros de Suavização, Geometria)"]
         PostProc --> UI["Camada de Apresentação (UI)\n(Overlay gráfico na tela, Feedback de Áudio, Notificação)"]
     end
+
 ```
 
 ---
